@@ -28,9 +28,9 @@ Problems with REST: Sometimes data could require multiple calls to display a web
 
 
 # Databases:
-NoSQL: NoSQL is a collection of data items represented in a key-value store, document-store, wide column store, or a graph database.  
+NoSQL: NoSQL is a collection of data items represented in a key-value store, document-store, wide column store, or a graph database. Faster for writes and simple key-value reads.
 
-SQL: Structured data, strict schema (how tables are configured), transactions, complex joins
+SQL: Structured data, strict schema (how tables are configured), transactions, complex joins. Use this when you need a relational structure.
 
 
 
