@@ -1,7 +1,7 @@
 # prep
 
 
-#Coding Problems: https://github.com/donnemartin/interactive-coding-challenges  
+# Coding Problems: https://github.com/donnemartin/interactive-coding-challenges  
 
 1. Knapsack: https://www.geeksforgeeks.org/knapsack-problem/  
 
@@ -9,7 +9,7 @@
 
 
 
-#The Web:  
+# The Web:  
 
 TCP: Data arrives in packets, in order  
 
