@@ -89,6 +89,8 @@ The reason this happened was because, as we have discussed in the previous examp
 
 
 # Python:
+
+Generators: Simply speaking, a generator is a function that returns an object (iterator) which we can iterate over (one value at a time).
 ```
 >>> def simple_generator_function():
 >>>    yield 1
