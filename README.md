@@ -87,3 +87,33 @@ When a function accesses a variable outside its scope, it accesses that variable
 The reason this happened was because, as we have discussed in the previous example, the closure (the anonymous function in this example) has access to the outer function’s variables by reference, not by value. So just as the previous example showed that we can access the updated variable with the closure, this example similarly accessed the i variable when it was changed, since the outer function runs the entire for loop and returns the last value of i, which is 103.
 
 
+
+# Python:
+```
+>>> def simple_generator_function():
+>>>    yield 1
+>>>    yield 2
+>>>    yield 3
+
+```
+
+
+And here are two simple ways to use it:
+
+
+```
+>>> for value in simple_generator_function():
+>>>     print(value)
+1
+2
+3
+>>> our_generator = simple_generator_function()
+>>> next(our_generator)
+1
+>>> next(our_generator)
+2
+>>> next(our_generator)
+3
+
+
+```
