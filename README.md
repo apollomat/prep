@@ -119,3 +119,10 @@ And here are two simple ways to use it:
 
 
 ```
+
+
+# Databases
+
+Denormalization: Adding redudant information to tables -- better because less inexpensive joins, bad because redundant..
+
+Example: Courses table with Teacher ID. Teachers table with Teachers ID. We could store the teachers full name in the courses table but then we have redundant information.
