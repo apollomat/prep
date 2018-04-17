@@ -7,7 +7,21 @@
 
 2. Longest common subsequence: http://nbviewer.jupyter.org/github/donnemartin/interactive-coding-challenges/blob/master/recursion_dynamic/longest_common_subsequence/longest_common_subseq_solution.ipynb
 
+knapsack:
+for every possible item, try and find max way to hit a weight
 
+
+Coin change (how many ways)
+every value up to k,
+every coin in array
+
+for every value, we want to see how many ways to make change we can make
+
+Min coin for value:
+Every coin in array,
+Every value up to value
+
+for every coin combination, we want to see the minimum amount of coins that sum to a specific value
 
 # The Web:  
 
